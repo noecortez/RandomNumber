@@ -30,6 +30,7 @@ function checkGuess() {
   if (userGuess === randomNumber) {
     lastResult.textContent = "¡Felicidades! ¡Lo adivinaste!";
     card.classList.remove("no-show");
+    card.classList.remove("alert-warning");
     card.classList.add("alert-success");
     lowOrHi.textContent = "Realmente eres bueno para esto. 😎";
 
