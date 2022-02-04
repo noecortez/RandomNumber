@@ -35,7 +35,7 @@ function checkGuess() {
     lowOrHi.textContent = "Realmente eres bueno para esto. 😎";
 
     setGameOver();
-  } else if (guessCount === 3) {
+  } else if (guessCount === 10) {
     lastResult.textContent = "¡Fin del juego!";
     card.classList.remove("no-show");
     card.classList.add("alert-danger");
